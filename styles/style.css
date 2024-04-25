@@ -25,9 +25,21 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-25%, -25%);
     height: 500px;
     width: 250px;
+    transform: translate(-50%, -50%);
     background-color: white;
     border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.61);
+}
+section#login > div#imagem {
+    display: block;
+    height: 200px;
+    background: #5f2c82 url('../images/metal.jpg') no-repeat left bottom;
+    background-size: cover;
+}
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
 }
